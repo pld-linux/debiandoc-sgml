@@ -4,7 +4,7 @@ Summary(pl):	Bazuj±cy na SGML pakiet do formatowania dokumentacji
 Name:		debiandoc-sgml
 Version:	1.1.84
 Release:	1
-License:	GPL 2
+License:	GPL v2
 Group:		Applications/Publishing/SGML
 Source0:	ftp://ftp.debian.org/debian/pool/main/d/debiandoc-sgml/%{name}_%{version}.tar.gz
 # Source0-md5:	59489af24be6a3ce947e6f14b23d7994
