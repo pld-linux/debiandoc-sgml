@@ -8,7 +8,6 @@ License:	GPL v2
 Group:		Applications/Publishing/SGML
 Source0:	ftp://ftp.debian.org/debian/pool/main/d/debiandoc-sgml/%{name}_%{version}.tar.gz
 # Source0-md5:	7c19504e7f8bf7baa6aa0397a1ba93e6
-# Source0-size:	75985
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	sgml-common
 BuildArch:	noarch
