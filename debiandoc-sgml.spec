@@ -2,12 +2,13 @@
 Summary:	SGML-based documentation formatting package
 Summary(pl):	Bazuj±cy na SGML pakiet do formatowania dokumentacji
 Name:		debiandoc-sgml
-Version:	1.1.83
+Version:	1.1.84
 Release:	1
 License:	GPL 2
 Group:		Applications/Publishing/SGML
 Source0:	ftp://ftp.debian.org/debian/pool/main/d/debiandoc-sgml/%{name}_%{version}.tar.gz
-# Source0-md5:	abc5ea35af3fbce2968517be9eeb1d74
+# Source0-md5:	59489af24be6a3ce947e6f14b23d7994
+# Source0-size:	75985
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	sgml-common
 BuildArch:	noarch
@@ -39,6 +40,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc README debian/changelog debian/TODO
 %attr(755,root,root) %{_bindir}/debiandoc2*
 %{perl_vendorlib}/DebianDoc_SGML
 %{_datadir}/%{name}
