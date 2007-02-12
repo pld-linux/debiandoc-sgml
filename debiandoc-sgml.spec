@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	SGML-based documentation formatting package
-Summary(pl):	Bazuj±cy na SGML pakiet do formatowania dokumentacji
+Summary(pl.UTF-8):   BazujÄ…cy na SGML pakiet do formatowania dokumentacji
 Name:		debiandoc-sgml
 Version:	1.1.96
 Release:	1
@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 SGML-based documentation formatting package.
 
-%description -l pl
-Bazuj±cy na SGML pakiet do formatowania dokumentacji.
+%description -l pl.UTF-8
+BazujÄ…cy na SGML pakiet do formatowania dokumentacji.
 
 %prep
 %setup -q
