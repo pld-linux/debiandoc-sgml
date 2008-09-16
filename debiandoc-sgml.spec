@@ -43,6 +43,8 @@ rm -rf $RPM_BUILD_ROOT
 %doc README debian/changelog debian/README.Debian debian/TODO
 %attr(755,root,root) %{_bindir}/debiandoc2*
 %{perl_vendorlib}/DebianDoc_SGML
-%{_datadir}/%{name}
+%dir %{_datadir}/%{name}
+%attr(755,root,root) %{_datadir}/%{name}/fixlatex
+%attr(755,root,root) %{_datadir}/%{name}/saspconvert
 %{_datadir}/sgml/debiandoc
 %{_mandir}/man?/*
